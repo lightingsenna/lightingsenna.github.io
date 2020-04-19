@@ -1,0 +1,28 @@
+.header {
+    height: 56px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.nav-list {
+    display: flex;
+    width: 330px;
+}
+.nav-item {
+    margin-right: 12px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item .text {
+    font-size: 14px;
+}
+
+.user-center .nav-item {
+    /* width: 50px; */
+}
+
